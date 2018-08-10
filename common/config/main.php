@@ -9,7 +9,7 @@ return [
         'db' => require(__DIR__ . '/db.php'),
         'cache' => [
             'class' => 'common\components\Cache',
-            'keyPrefix'   => 'yii:gt233:datacache:',
+            'keyPrefix'   => 'y2:gt233:datacache:', //前缀不再带YII字符
             'redis' => [
                 'hostname' => 'localhost',
                 'password' => '',#本地配置会覆盖线上配置
